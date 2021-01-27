@@ -1,6 +1,6 @@
 package January;
 
-public class Hw7 {
+public class Hw7_9 {
     public static final int SIZE=5;
     public static void main(String [] args) {
         for(int line = 1; line <= SIZE; line++ ) {
