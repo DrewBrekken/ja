@@ -1,25 +1,33 @@
 package January;
 
 public class Hw7_9 {
-    public static final int SIZE=5;
+    public static final int SIZE=10;
     public static void main(String [] args) {
-        for(int line = 1; line <= SIZE; line++ ) {
-            frontspace(line);
-            System.out.print(line);
-            backspace(line);
-            System.out.println();
+        topline();
+        printweird();
+        drnumbers();
+        topline();
         }
         
-    }
-    public static void frontspace(int line) {
-        for(int space = 1; space <= -line+SIZE; space++) {
-            System.out.print(" ");
+    
+    public static void topline() {
+        for(int dash = 1; dash <= 4*SIZE; dash++) {
+            System.out.print("-");
         }
+        System.out.println("");
     }
-    public static void backspace(int line) {
-        for(int space = 1; space <= line-1; space++){
-            System.out.print(" ");
+    public static void printweird() {
+        for(int thing = 1; thing <= SIZE; thing++){
+            System.out.print("_-^-");
         }
+        System.out.println("");
+    }
+    public static void drnumbers() {
+        for(int i = 1; i <= 20; i++) {
+            System.out.print(i%10);
+            System.out.print(i%10);
+        }
+        System.out.println("");
     }
 
 }
