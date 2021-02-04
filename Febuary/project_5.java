@@ -22,7 +22,7 @@ public class project_5 {
             }
             System.out.print("**");
             for(int bslash = 1; bslash <= line; bslash++){
-                System.out.print("\\");
+                System.out.print("\\"); 
             }
             System.out.println("");
         }
