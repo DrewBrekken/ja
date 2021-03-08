@@ -1,6 +1,6 @@
 package March;
 import java.util.*;
-public class problem10 {
+public class problem10 {  
     public static void main(String [] args){
     Scanner input = new Scanner(System.in);
     int x, y;
@@ -15,3 +15,4 @@ public class problem10 {
         return (x+y)/2.0;
     }
 }
+//blah blah blah commit testing 123
