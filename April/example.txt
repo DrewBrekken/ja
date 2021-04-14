@@ -1,7 +1,4 @@
-Wassa dude
-*Classified info*
-Balance = $3,456,764,098
-Transfer Code : 224221
-User : Unkown
-Password : ADHDnomeds_99
-C:\Users\brekk\OneDrive - Greenhill School\Documents\JAVA2021\April\example.txt
+16.2   23.5
+19.1 7.4 22.8
+gary
+18.5 -1.8 14.9 3.2

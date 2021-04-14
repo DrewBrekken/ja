@@ -7,10 +7,14 @@ public class usingfiles {
     Scanner input = new Scanner(myfile);
     while(input.hasNextLine()){
         Scanner line = new Scanner(input.nextLine());
-        //while(line.hasNext()){
-        //    System.out.println(line.next());
-        //}
-        System.out.println(input.nextLine());
+        while(line.hasNext()){
+            if(line.hasNextDouble()){
+            System.out.println(line.nextDouble());
+            } else{
+                String temp = line.next();
+            }
+        }
+        //System.out.println(input.nextLine());
     }
     }
 }
