@@ -1,0 +1,6 @@
+Sedan 20000
+Suv 40000
+Convertible 70000
+Stock 10000
+Premium 20000
+Sport 40000

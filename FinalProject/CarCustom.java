@@ -1,7 +1,7 @@
 
 public class CarCustom {
     // private varibles that will define a custom car
-    private String body = "";
+    private String body = ""; 
     private String paint = "";
     private String engine = "";
     // constructors
@@ -10,7 +10,7 @@ public class CarCustom {
         paint = "white";
         engine = "stock";
     }
-    public CarCustom(String body1, String paint1, String engine1){
+    public CarCustom(String body1, String paint1, String engine1){ // making sure that the input is valid
         if(body1.equalsIgnoreCase("suv") || body1.equalsIgnoreCase("sedan") || body1.equalsIgnoreCase("convertible")){
             body = body1;
         }else{
@@ -50,7 +50,7 @@ public class CarCustom {
     public String toString(){
         return("You ordered a custom " + paint + " " + body + " with a " + engine + " engine kit.");
     }
-    public void getSound(String engine5){
+    public void getSound(String engine5){ // this is a method of what I think the cars would sound like and it is just suppossed to be funny
         if(engine5.equalsIgnoreCase("stock")){
             System.out.println("bruuum rrrrruuumm");
         }else if(engine5.equalsIgnoreCase("premium")){
